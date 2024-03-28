@@ -11,7 +11,7 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>https://github.com/arup-group/AINoise_iosDownload/ipa</string>
+					<string>https://github.com/arup-group/AINoise_iosDownload/releases/download/ipa/AINoise.ipa</string>
 				</dict>
 				<dict>
 					<key>kind</key>
@@ -47,7 +47,7 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>https://github.com/arup-group/AINoise_iosDownload/ipa-053F4A6D-F570-46C1-97E2-3FEB2EBA6E4E</string>
+					<string>https://github.com/arup-group/AINoise_iosDownload/releases/download/ipa/AINoise.ipa</string>
 					<key>variantDescriptors</key>
 					<array>
 						<dict>
@@ -594,7 +594,7 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>https://github.com/arup-group/AINoise_iosDownload/ipa-135907BC-AB4D-4AB7-B457-046E6F20B2F3</string>
+					<string>https://github.com/arup-group/AINoise_iosDownload/releases/download/ipa/AINoise.ipa</string>
 					<key>variantDescriptors</key>
 					<array>
 						<dict>
@@ -1621,7 +1621,7 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>https://github.com/arup-group/AINoise_iosDownload/ipa-8FF8FAAF-A69C-4F3E-B37B-D7C58FA29048</string>
+					<string>https://github.com/arup-group/AINoise_iosDownload/releases/download/ipa/AINoise.ipa</string>
 					<key>variantDescriptors</key>
 					<array>
 						<dict>
@@ -1949,7 +1949,7 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>https://github.com/arup-group/AINoise_iosDownload/ipa-6C89B82B-E29E-48D0-8452-8FF69FC25FDD</string>
+					<string>https://github.com/arup-group/AINoise_iosDownload/releases/download/ipa/AINoise.ipa</string>
 					<key>variantDescriptors</key>
 					<array>
 						<dict>
