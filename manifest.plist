@@ -15,6 +15,12 @@
 				</dict>
 				<dict>
 					<key>kind</key>
+					<string>software-package</string>
+					<key>url</key>
+					<string>https://github.com/arup-group/AINoise_iosDownload/releases/download/ipa/AINoise.ipa</string>
+				</dict>
+				<dict>
+					<key>kind</key>
 					<string>display-image</string>
 					<key>url</key>
 					<string>https://github.com/arup-group/AINoise_iosDownload/blob/6d39bc3ff76463f193f70808bb934e7a0f66027c/icon.png</string>
