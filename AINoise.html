@@ -111,8 +111,8 @@
 			<div class="bs-component">
 			  <ul class="nav nav-tabs" style="margin-bottom: 15px;">
 				<li class="nav-link active"><a style="color: rgba(0,0,0,.9) !important;" href="#ios" data-toggle="tab">AI Noise : iOS (iPhone or iPad)</a></li>
-				<li class="nav-link"><a style="color: rgba(0,0,0,.9) !important;" href="#android" data-toggle="tab">Tensorflow : iOS (iPhone or iPad)</a></li>
-				<li class="nav-link"><a style="color: rgba(0,0,0,.9) !important;" href="#faceDetect" data-toggle="tab">FaceDetect : iOS (iPhone or iPad)</a></li>	
+				<!-- <li class="nav-link"><a style="color: rgba(0,0,0,.9) !important;" href="#android" data-toggle="tab">Tensorflow : iOS (iPhone or iPad)</a></li> -->
+				<!-- <li class="nav-link"><a style="color: rgba(0,0,0,.9) !important;" href="#faceDetect" data-toggle="tab">FaceDetect : iOS (iPhone or iPad)</a></li>	 -->
 				<li class="nav-link"><a style="color: rgba(0,0,0,.9) !important;" href="#Recording" data-toggle="tab">AI Noise Recording : iOS (iPhone or iPad)</a></li>	
 			</li>
 			  </ul>
@@ -125,7 +125,7 @@
 					<li><a href="https://github.com/arup-group/AINoise_iosDownload/releases/download/certificate/Arup_PME_Recognition_profile-25.1.mobileprovision" target="_blank">Download</a> the certificate and trust <strong>Arup</strong> (<a href="trust.gif" target="_blank">click me to see how</a>). Your operating system must be iOS 9 or above.</li>
 				  </ol>
 				</div>
-				<div class="tab-pane fade" id="android">
+				<!-- <div class="tab-pane fade" id="android">
 				  <ol>
 					<li>Tensorflow object Detect: .</li>
 					<li><a href="#" onclick="showDisclaimer(1)">Download</a> and install the ArupREAL mobile app. The file size of the app is around 36 MB.</li>
@@ -134,8 +134,8 @@
 					<li>Scan the entire page to see 3D models in Augmented Reality.</li>
 					<li>Recommeded devices: Samsung Galaxy S6, Samsung Galaxy Tab S2, or higher.</li>
 				  </ol>
-				</div>
-				<div class="tab-pane fade" id="faceDetect">
+				</div> -->
+				<!-- <div class="tab-pane fade" id="faceDetect">
 					<ol>
 					  <li>Face Detect</li>
 					  <li><a href="#" onclick="showDisclaimer(2)">Download</a> and install the ArupREAL mobile app. The file size of the app is around 36 MB.</li>
@@ -144,7 +144,7 @@
 					  <li>Scan the entire page to see 3D models in Augmented Reality.</li>
 					  <li>Recommeded devices: Samsung Galaxy S6, Samsung Galaxy Tab S2, or higher.</li>
 					</ol>
-				  </div>
+				  </div> -->
 				  <div class="tab-pane fade" id="Recording">
 					<ol>
 					  <li>AI Noise Recording</li>
@@ -185,11 +185,13 @@
 			if (confirm(disclaimer) == true) {
 				if(platform == 0){
 					window.open("itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/arup-group/AINoise_iosDownload/main/manifest.plist");
-				}else if(platform == 1){
-					window.open("itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/arup-group/AINoise_iosDownload/main/Tensorflow/manifest.plist");
-				}else if(platform == 2){
-					window.open("itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/arup-group/AINoise_iosDownload/main/FaceDetect/manifest.plist");
-				}else if(platform == 3){
+				}
+				// else if(platform == 1){
+				// 	window.open("itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/arup-group/AINoise_iosDownload/main/Tensorflow/manifest.plist");
+				// }else if(platform == 2){
+				// 	window.open("itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/arup-group/AINoise_iosDownload/main/FaceDetect/manifest.plist");
+				// }
+				else if(platform == 1){
 					window.open("itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/arup-group/AINoise_iosDownload/main/AINoise%202024-05-17%2018-35-08/manifest.plist");
 				}							
 			}
