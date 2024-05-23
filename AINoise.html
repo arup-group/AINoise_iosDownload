@@ -113,6 +113,7 @@
 				<li class="nav-link active"><a style="color: rgba(0,0,0,.9) !important;" href="#ios" data-toggle="tab">AI Noise : iOS (iPhone or iPad)</a></li>
 				<li class="nav-link"><a style="color: rgba(0,0,0,.9) !important;" href="#android" data-toggle="tab">Tensorflow : iOS (iPhone or iPad)</a></li>
 				<li class="nav-link"><a style="color: rgba(0,0,0,.9) !important;" href="#faceDetect" data-toggle="tab">FaceDetect : iOS (iPhone or iPad)</a></li>	
+				<li class="nav-link"><a style="color: rgba(0,0,0,.9) !important;" href="#faceDetect" data-toggle="tab">AI Noise Recording : iOS (iPhone or iPad)</a></li>	
 			</li>
 			  </ul>
 			  <div id="myTabContent" class="tab-content">
@@ -181,7 +182,9 @@
 					window.open("itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/arup-group/AINoise_iosDownload/main/Tensorflow/manifest.plist");
 				}else if(platform == 2){
 					window.open("itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/arup-group/AINoise_iosDownload/main/FaceDetect/manifest.plist");
-				}						
+				}else if(platform == 3){
+					window.open("itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/arup-group/AINoise_iosDownload/main/AINoise 2024-05-17 18-35-08/manifest.plist");
+				}							
 			}
 		}
 		
