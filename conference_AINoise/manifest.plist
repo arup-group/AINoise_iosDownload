@@ -11,19 +11,19 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>https://www.nibco.com/brands/webstone/</string>
+					<string>https://github.com/arup-group/AINoise_iosDownload/releases/download/ipaAINoiseConference/AINoise.ipa</string>
 				</dict>
 				<dict>
 					<key>kind</key>
 					<string>display-image</string>
 					<key>url</key>
-					<string>https://www.nibco.com/brands/webstone/</string>
+				<string>https://github.com/arup-group/AINoise_iosDownload/blob/6d39bc3ff76463f193f70808bb934e7a0f66027c/icon.png</string>
 				</dict>
 				<dict>
 					<key>kind</key>
 					<string>full-size-image</string>
 					<key>url</key>
-					<string>https://www.nibco.com/brands/webstone/</string>
+<string>https://github.com/arup-group/AINoise_iosDownload/blob/6d39bc3ff76463f193f70808bb934e7a0f66027c/icon.png</string>
 				</dict>
 			</array>
 			<key>metadata</key>
@@ -47,7 +47,7 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>https://www.nibco.com/brands/webstone-C61FEC28-AFF0-4D2F-99E8-44A3B5D60DCD</string>
+						<string>https://github.com/arup-group/AINoise_iosDownload/releases/download/ipaAINoiseConference/AINoise.ipa</string>
 					<key>variantDescriptors</key>
 					<array>
 						<dict>
@@ -1074,7 +1074,7 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>https://www.nibco.com/brands/webstone-47F8D099-2E7B-4021-8110-5B461390350B</string>
+					<string>https://github.com/arup-group/AINoise_iosDownload/releases/download/ipaAINoiseConference/AINoise.ipa</string>
 					<key>variantDescriptors</key>
 					<array>
 						<dict>
@@ -1621,7 +1621,7 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>https://www.nibco.com/brands/webstone-FA806EAD-E889-4F99-88F1-96447454BD50</string>
+					<string>https://github.com/arup-group/AINoise_iosDownload/releases/download/ipaAINoiseConference/AINoise.ipa</string>
 					<key>variantDescriptors</key>
 					<array>
 						<dict>
@@ -2146,7 +2146,7 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>https://www.nibco.com/brands/webstone-7C7E590B-1489-4CB2-A4FE-439A5462EBB3</string>
+					<string>https://github.com/arup-group/AINoise_iosDownload/releases/download/ipaAINoiseConference/AINoise.ipa</string>
 					<key>variantDescriptors</key>
 					<array>
 						<dict>
