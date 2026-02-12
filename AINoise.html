@@ -132,8 +132,16 @@
 				  <ol>
 
 				
-					<li>Internal testing version: Same functionality as the Confirmed version</li>
+					<li>( NEW ORDER)Internal testing version: Same functionality as the Confirmed version</li>
 					<li><a href="#" onclick="showDisclaimer(1)">Download</a> and install the mobile app.</li>
+					<img style="width: 40px;" src="conference_icon.png" />
+				  </ol>
+
+				  	  <ol>
+
+				
+					<li>( OLD ORDER) Internal testing version: Same functionality as the Confirmed version</li>
+					<li><a href="#" onclick="showDisclaimer(2)">Download</a> and install the mobile app.</li>
 					<img style="width: 40px;" src="conference_icon.png" />
 				  </ol>
 				</div>
@@ -180,7 +188,10 @@ function playVideo() {
 				
 				else if(platform == 1){
 					window.open("itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/arup-group/AINoise_iosDownload/main/conference_AINoise/manifest.plist");
-				}						
+				}	
+				else if(platform == 2){
+					window.open("itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/arup-group/AINoise_iosDownload/main/conference_AINoise_old//manifest.plist");
+				}					
 			}
 		}
 		
